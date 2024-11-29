@@ -75,10 +75,7 @@ class AuthorController extends Controller
         return redirect()->back()->with('message','Author Updated Succesfully');
 
  }
- public function author_book($id)
- {
-    
- }
+
 
 
 

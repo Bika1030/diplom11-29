@@ -137,9 +137,9 @@
                         <h4 style="color: #444; font-size:25px">Зохиолч (орчуулагч)-ийн номууд</h4>
                     </div>
                     <div class="author_book">
-                   
-
+                       
                     </div>
+
                 </div>
             </div>
         </div>

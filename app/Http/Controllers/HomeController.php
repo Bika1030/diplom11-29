@@ -46,6 +46,12 @@ class HomeController extends Controller
         $authors = Author::query()->findOrFail($id);
         return view('home.author_detail', compact('authors'));
     }
+    public  function author_book($id){
+        $books = Book::query()->where('author_id',$id)->get();
+        $authors = Author::all();
+        return view('home.author_detail', compact('authors', 'books'));
+    }
+
 
 
     public function explore(){

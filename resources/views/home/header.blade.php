@@ -50,7 +50,7 @@
                     </form>
                     <ul class="nav">
                         <li class="active"><a href="/">Нүүр</a></li>
-                        <li><a href="{{url('explore')}}">Номнууд</a></li>
+                        {{-- <li><a href="{{url('explore')}}">Номнууд</a></li> --}}
                         <li><a href="{{route('home.authors')}}">Зохиолч</a></li>
 
                         @if (Route::has('login'))
